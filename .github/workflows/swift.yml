@@ -16,7 +16,7 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
-    - name: Build
+    - name: Build Xcode
       run: |
         xcodebuild clean test -project GitActionTest.xcodeproj \
         -scheme GitActionTest \
